@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+.position-sticky
+{
+  position:sticky;
+  top: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-theme-color
+{
+  background-color: rgb(216, 216, 216);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rounded-corners
+{
+  border-radius: 2%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rounded-corners-2
+{
+  border-radius: 50px !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.errorMsgWrapper
+{
+  color:rgb(214, 61, 61)
+}
+.fullHeight
+{
+  height: 93vh;
+}
+.authFormDiv
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.bg-color-nb
+{
+  background-color:#0d6efd !important;
+}
+.navbar-brand-heading
+{
+  font-size: 24px;
+}
+.no-bullets
+{
+  list-style-type: none;
+}
+.no-data-img
+{
+  max-width: 50%;
+}
+.bg-white-custom
+{
+  background-color: rgb(255, 255, 255) !important;
+}
+.card-image
+{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.bg-light-grey
+{
+  background-color: rgb(251, 248, 248) !important;
+}
+.min-height
+{
+  min-height: 100vh;
+}
+.overflow-modified
+{
+  height:500px;
+  overflow-y: auto;
 }
 
-.App-link {
-  color: #61dafb;
+
+.deleteIcon
+{
+  cursor: pointer;
+}
+.adminIcon
+{
+  font-size: 28px;
+}
+.min-height-nb
+{
+  max-height: 60px;
+}
+.modified-box-shadow
+{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
