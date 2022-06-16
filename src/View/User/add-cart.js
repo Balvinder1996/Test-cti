@@ -16,7 +16,7 @@ const AddCart = () => {
     const handleDelete = (index) => {
         let deleted = data.filter(e => data.indexOf(e) !== index);
         setData(deleted);
-        let addingLocale = localStorage.setItem('selectedItems', JSON.stringify(deleted))
+        localStorage.setItem('selectedItems', JSON.stringify(deleted))
     }
 
     return (

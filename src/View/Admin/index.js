@@ -18,6 +18,7 @@ const ProductList = () => {
         let deletedData = Data.filter((e) => (Data.indexOf(e)) !== i)
         setData(deletedData);
         localStorage.setItem('storedProduct', JSON.stringify(deletedData));
+        toast.success("Product deleted successfully.")
     }
     return (
         <>

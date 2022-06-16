@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { Formik, Form, Field } from 'formik';
 import InputFields from '../../Reusable/input';
 import { productSchema } from '../../Validations/addProduct';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import {  toast } from 'react-toastify';
 import { useNavigate } from "react-router-dom";
 
 const AddProduct = () => {
@@ -141,8 +140,7 @@ const AddProduct = () => {
                     </div>
                 </div>
             </section>
-            <ToastContainer
-            />
+            
         </>
     )
 }

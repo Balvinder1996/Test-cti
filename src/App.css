@@ -88,3 +88,16 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
 }
 
+.position-relative
+{
+  position: relative;
+}
+.eye-icons
+{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+    right: 10px;
+    color: #0d6efd;
+    cursor: pointer;
+}
